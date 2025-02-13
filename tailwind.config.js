@@ -2,6 +2,9 @@ export default {
   content: ["./src/**/*.{js,jsx,ts,tsx,html}"],
   theme: {
     extend: {
+      fontFamily: {
+        sf: ['SF Pro', 'sans-serif'],
+      },
       colors: {
         primary: "#ff6347",
         secondary: "#f0e68c",
